@@ -1,0 +1,16 @@
+name: NametagTracker
+version: '1.0'
+main: de.qwatrum.nametagTracker.NametagTracker
+api-version: '1.20'
+authors: [ Qwatrum ]
+website: "https://github.com/qwatrum/nametagtracker"
+description: A minecraft plugin adding an easy way to track your named entities
+commands:
+  overview:
+    description: Open an overview of all named entities.
+    usage: /overview
+    aliases:
+      - ov
+  about:
+    description: Information about this plugin
+    usage: /about
